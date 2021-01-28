@@ -3,13 +3,9 @@
 Website for newrock media
 **********************************************************************************
 										 
-#				Getting Started					 
-										 
-**********************************************************************************
+##				Getting
 
-*************************************************************************
-#		Install the following softwares				
-*************************************************************************
+###		Install the following softwares
 
 * Node https://nodejs.org/en/
 * NPM https://www.npmjs.com/ (Already comes with node. But to be certain, run npm --version after downloading Node)
@@ -18,8 +14,7 @@ Website for newrock media
 
 
 *************************************************************************
-#	Double check if they're all installed and running
-*************************************************************************
+###	Double check if they're all installed and running
 
 # Using a terminal run these commands (without the '#')
 * node --version
@@ -29,10 +24,10 @@ Website for newrock media
 
 * If any of them says "~bash: {name of the software}: command not found", restart your terminal if you installed while it was open. If still not working they're not installed(or installed properly)
 
-# *Assuming you downloaded the program's folder
+#### *Assuming you downloaded the program's folder
 
 *************************************************************************
-#				Use a terminal				
+###				Use a terminal				
 *************************************************************************
 * Go to the downloaded folder (newrock_website)
 * Inside the folder go to the client's folder
