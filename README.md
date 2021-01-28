@@ -23,14 +23,3 @@ Website for newrock media
 * vue --version
 
 - If any of them says "~bash: {name of the software}: command not found", restart your terminal if you installed while it was open. If still not working they're not installed(or installed properly)
-
-##### *go to your cloned repo's folder
-
-*************************************************************************
-###				Use a terminal				
-*************************************************************************
-* Go to the downloaded folder (newrock_website)
-* Inside the folder go to the client's folder
-* run these commands inside the client's folder (without '->')
-	-> yarn
-	-> yarn serve (once it completes installing)
