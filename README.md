@@ -3,9 +3,9 @@
 Website for newrock media
 **********************************************************************************
 										 
-##				Getting
+###				Getting Started
 
-###		Install the following softwares
+####		Install the following softwares
 
 * Node https://nodejs.org/en/
 * NPM https://www.npmjs.com/ (Already comes with node. But to be certain, run npm --version after downloading Node)
@@ -14,17 +14,17 @@ Website for newrock media
 
 
 *************************************************************************
-###	Double check if they're all installed and running
+######	Double check if they're all installed and running
 
-# Using a terminal run these commands (without the '#')
+#### Using a terminal run these commands (without the '#')
 * node --version
 * npm --version
 * yarn --version
 * vue --version
 
-* If any of them says "~bash: {name of the software}: command not found", restart your terminal if you installed while it was open. If still not working they're not installed(or installed properly)
+- If any of them says "~bash: {name of the software}: command not found", restart your terminal if you installed while it was open. If still not working they're not installed(or installed properly)
 
-#### *Assuming you downloaded the program's folder
+##### *go to your cloned repo's folder
 
 *************************************************************************
 ###				Use a terminal				
@@ -33,4 +33,4 @@ Website for newrock media
 * Inside the folder go to the client's folder
 * run these commands inside the client's folder (without '->')
 	-> yarn
-	-> (once it completes installing yarn) yarn serve
+	-> yarn serve (once it completes installing)
