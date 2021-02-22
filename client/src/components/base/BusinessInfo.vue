@@ -5,7 +5,7 @@
         title="KEEP IN TOUCH WITH US"
         pace="6"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.
+        We have friendly staff waiting to answer all your questions. Feel free to contact us at anytime (responses at night might be slower) of the day, you will get the assistance you require and become a client of the NewRock family.
       </base-info-card>
 
       <base-business-contact dense />

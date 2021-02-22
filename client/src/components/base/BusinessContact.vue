@@ -18,8 +18,6 @@
           horizontal
           space="0"
         >
-          <!-- Do not use v-html for user -->
-          <!-- provided values -->
           <div
             class="mt-5"
             v-html="text"
@@ -56,7 +54,12 @@
         {
           icon: 'mdi-cellphone',
           title: 'Phone',
-          text: '(+27) 364-6766',
+          text: '(+27) 76 364 6766',
+        },
+        {
+          icon: 'mdi-cellphone',
+          title: 'Phone',
+          text: '(+27) 73 999 6178',
         },
         {
           icon: 'mdi-email',

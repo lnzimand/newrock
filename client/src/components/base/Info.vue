@@ -13,20 +13,17 @@
         size="body-1"
         space="4"
         title="NewRock Medias"
-        weight="regular"
+        weight="bold"
+        class="purple--text"
       />
 
       <base-body>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.
+        <span class="deep-orange--text">NewRock Medias</span> is a production company based in Bloemfontein.<br>
+        Offering services ranging from recording in studio to doing live dvd recordings, we keep up with current needs and are currently trendsetters in our field.
+        We have introduced live-streaming to our services at affordable rates<br><br>
+        We offer great quality on time.
+        Contact us to make your event a memorable one
       </base-body>
-
-      <base-btn
-        class="mb-12"
-        color="white"
-        outlined
-      >
-        More Info
-      </base-btn>
     </div>
   </v-theme-provider>
 </template>

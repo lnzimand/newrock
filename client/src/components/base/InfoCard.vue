@@ -32,7 +32,54 @@
             space="1"
           />
 
+          <v-col
+            v-if="image"
+            cols="12"
+          >
+            <div>
+              <template>
+                <v-row justify="center">
+                  <v-img
+                    :src="require(`@/assets/${image}`)"
+                    :lazy-src="require(`@/assets/${image}`)"
+                  >
+                    <template v-slot:placeholder>
+                      <v-row
+                        class="fill-height ma-0"
+                        align="center"
+                        justify="center"
+                      >
+                        <v-progress-circular
+                          indeterminate
+                          color="grey lighten-5"
+                        />
+                      </v-row>
+                    </template>
+                  </v-img>
+                </v-row>
+              </template>
+            </div>
+          </v-col>
+
           <base-divider :color="color" />
+
+          <div
+            v-if="position"
+            class="text-subtitle-1 font-weight-black purple--text"
+          >
+            <div
+              v-if="motto"
+              class="text-caption font-italic deep-orange--text"
+              v-text="motto"
+            />
+            {{ position }}
+            <div>
+              <span
+                class="text-overline deep-orange--text"
+                v-text="office"
+              />
+            </div>
+          </div>
 
           <base-body
             v-if="text || $slots.default"
@@ -48,7 +95,7 @@
           cols="2"
         >
           <div
-            class="text-h2 grey--text text--lighten-4 font-weight-bold pr-8"
+            class="text-h2 grey--text text--lighten-3 font-weight-bold pr-8"
             v-text="callout"
           />
         </v-col>
@@ -69,6 +116,10 @@
     props: {
       dark: Boolean,
       callout: String,
+      image: String,
+      motto: String,
+      position: String,
+      office: String,
       color: {
         type: String,
         default: 'primary',

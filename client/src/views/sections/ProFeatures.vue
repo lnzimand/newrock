@@ -2,103 +2,15 @@
   <base-section
     id="pro-features"
   >
-    <v-img
-      :src="require('@/assets/logo.png')"
-      class="mx-auto mb-8"
-      max-width="128"
-    />
-
-    <!-- <base-section-heading title="Feature Comparison">
-      Get the PRO version of <strong>Zero</strong> and level up your theme<br>with additional components, pages, and Free updates.
-    </base-section-heading> -->
-
     <v-container>
-      <v-row
-        align="center"
-        justify="center"
-      >
-        <v-col
-          cols="12"
-          md="7"
-        >
-          <!-- <v-simple-table>
-            <thead>
-              <tr>
-                <th />
-                <th class="body-1 font-weight-bold text-center">
-                  What's in the Demo?
-                </th>
-                <th class="body-1 font-weight-bold text-center">
-                  What's in the PRO version?
-                </th>
-              </tr>
-            </thead>
-
-            <tbody class="body-1">
-              <tr
-                v-for="([name, one, two], i) in features"
-                :key="i"
-              >
-                <td v-text="name" />
-
-                <td class="text-center font-weight-bold">
-                  <template v-if="typeof one === 'boolean'">
-                    <v-icon :color="one ? 'success' : 'error'">
-                      mdi-{{ one ? 'check' : 'close' }}
-                    </v-icon>
-                  </template>
-
-                  <template v-else>
-                    {{ one }}
-                  </template>
-                </td>
-
-                <td class="text-center font-weight-bold">
-                  <template v-if="typeof two === 'boolean'">
-                    <v-icon :color="two ? 'success' : 'error'">
-                      mdi-{{ two ? 'check' : 'close' }}
-                    </v-icon>
-                  </template>
-
-                  <template v-else>
-                    {{ two }}
-                  </template>
-                </td>
-              </tr>
-            </tbody>
-          </v-simple-table> -->
-        </v-col>
-
-        <v-col
-          cols="12"
-          md="5"
-        >
-          <!-- <v-card
-            elevation="16"
-            class="mb-12"
-          >
-            <base-img
-              max-width="100%"
-              src="https://cdn.vuetifyjs.com/store/themes/zero/pro.png"
-            />
-          </v-card> -->
-
-          <!-- <div class="text-center">
-            <base-btn
-              :tile="false"
-              color="primary"
-              href="https://store.vuetifyjs.com/product/zero-theme-pro/?ref=vtyd-pro-page-features"
-              rounded
-            >
-              Buy Pro Now
-
-              <v-icon right>
-                mdi-rocket
-              </v-icon>
-            </base-btn>
-          </div> -->
-        </v-col>
-      </v-row>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.6544550501985!2d26.22342131439033!3d-29.172989982207724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8fc5f943f03f73%3A0xc364d205c8f0acac!2s27%20George%20Lubbe%20St%2C%20Hamilton%2C%20Bloemfontein%2C%209301!5e1!3m2!1sen!2sza!4v1613992465604!5m2!1sen!2sza"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      />
     </v-container>
   </base-section>
 </template>
@@ -108,15 +20,6 @@
     name: 'SectionProChart',
 
     data: () => ({
-      features: [
-        ['Components', 23, '40+'],
-        ['Example Pages', 3, 10],
-        ['Bugfixes and Issues', true, true],
-        ['Vue CLI Support', true, true],
-        ['News, Project, and Pricing Pages', false, true],
-        ['6 Months Free Updates', false, true],
-        ['Price', 'Free', '$60'],
-      ],
     }),
   }
 </script>
