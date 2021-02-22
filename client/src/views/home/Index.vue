@@ -22,7 +22,7 @@
         'social-media',
         'keep-in-touch',
         'newsletter',
-        'pro-features',
+        'map',
         'info',
       ]),
     ],

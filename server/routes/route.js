@@ -9,7 +9,7 @@ router.post('/', (request, response) => {
     console.log(request.body);
     var error = validateEmail(emailAddress);
     if (empty(error)) {
-        var options = { from: emailAddress, to: "fipih91362@ermailo.com", subject: subject, message: `${message} from ${name}` };
+        var options = { from: emailAddress, to: "goheten979@iconmle.com", subject: subject, message: `${message}<br><br>Sender's name: ${name}` };
 
         sendMail(options).then((result) => {
             response.send({
