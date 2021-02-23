@@ -7,7 +7,7 @@
           :interval="interval"
           :show-arrows="false"
           max-width="100%"
-          hide-delimiter-background
+          hide-delimiters
           delimiter-icon="mdi-minus"
           gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)"
         >
@@ -26,12 +26,6 @@
                 class="orange--text"
                 title="NewRock Audio"
               />
-
-              <!-- <base-body>
-                Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality.
-                incubator seed round massmarket.
-                buyer agile development growth hacking business-to-consumer ecosystem
-              </base-body> -->
 
               <div
                 :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"

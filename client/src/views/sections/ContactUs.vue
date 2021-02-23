@@ -15,7 +15,7 @@
 
             <base-body space="0">
               <span class="white--text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor itaque modi ab accusantium architecto voluptates ipsa molestiae.
+                We have friendly staff waiting to answer all your questions.
               </span>
             </base-body>
           </v-col>
