@@ -3,12 +3,12 @@
     <v-app-bar
       id="home-app-bar"
       app
-      color="purple"
       elevation="1"
+      elevate-on-scroll
       height="80"
     >
       <base-img
-        :src="require('@/assets/logo.png')"
+        :src="require(`@/assets/logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
         class="mr-3 hidden-xs-only"
         contain
         max-width="150"
@@ -21,6 +21,7 @@
         <v-tabs
           class="hidden-sm-and-down"
           optional
+          background-color="transparent"
         >
           <v-tab
             v-for="(name, i) in items"

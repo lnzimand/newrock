@@ -5,7 +5,7 @@
   >
     <v-avatar
       v-if="outlined"
-      :color="color || 'grey lighten-3'"
+      :color="color || ($vuetify.theme.isDark ? 'grey darken-3' : 'grey lighten-4')"
       :size="outlineSize"
       :style="styles"
       class="base-avatar__outline"
@@ -13,7 +13,7 @@
     />
 
     <v-avatar
-      :color="color || 'white'"
+      :color="color || ($vuetify.theme.isDark ? 'grey darken-4' : 'white')"
       :size="size"
       class="base-avatar__avatar"
       v-bind="$attrs"
@@ -55,6 +55,9 @@
           this.outlined && 'base-avatar--outlined',
         ]
       },
+      isDark () {
+        return this.theme.isDark || this.dark
+      },
       outlineSize () {
         return Number(this.size) + (this.size / this.multiply)
       },
@@ -81,9 +84,13 @@
       left: 0
       top: 0
 
-    &--outlined
-      background-color: #FFFFFF
+    &.base-avatar--outlined .base-avatar__avatar
+      border-width: thin
+      border-style: solid
 
-      .base-avatar__avatar
-        border: thin solid rgba(0, 0, 0, .12) !important
+  .theme--light .base-avatar--outlined .base-avatar__avatar
+    border-color: rgba(0, 0, 0, .12) !important
+
+  .theme--dark .base-avatar--outlined .base-avatar__avatar
+    border-color: rgba(255, 255, 255, .12) !important
 </style>

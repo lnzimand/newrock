@@ -10,7 +10,7 @@
       :icon="icon"
       :outlined="outlined"
       :size="size"
-      class="mb-3"
+      class="mb-3 align-self-start"
     />
 
     <div :class="horizontal && title && 'ml-6'">

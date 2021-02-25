@@ -65,17 +65,17 @@
 
           <div
             v-if="position"
-            class="text-subtitle-1 font-weight-black purple--text"
+            class="text-subtitle-1 font-weight-bold purple--text"
           >
             <div
               v-if="motto"
-              class="text-caption font-italic deep-orange--text"
+              class="text-caption font-italic font-weight-bold deep-orange--text"
               v-text="motto"
             />
             {{ position }}
             <div>
               <span
-                class="text-overline deep-orange--text"
+                class="text-overline font-weight-bold deep-orange--text"
                 v-text="office"
               />
             </div>

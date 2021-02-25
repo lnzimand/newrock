@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+
+  newrock-web-app-front-end:
+    build:
+      context: ./client/
+      labels:
+        com.yaqwaqwa.description: "NewRock webapp"
+        com.yaqwaqwa.author: "YaQwaQwa"
+    links:
+      - newrock-web-app-back-end
+    ports:
+      - "8080:8080"
+
+  newrock-web-app-back-end:
+    build:
+      context: ./server/
+      labels:
+        com.yaqwaqwa.description: "NewRock webapp"
+        com.yaqwaqwa.author: "YaQwaQwa"
+    ports:
+      - "8081:8081"

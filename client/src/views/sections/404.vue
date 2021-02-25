@@ -1,7 +1,7 @@
 <template>
   <base-section id="404">
     <base-img
-      :src="require('@/assets/logo.png')"
+      :src="require(`@/assets/logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
       class="mx-auto mb-12"
       contain
       height="150"
