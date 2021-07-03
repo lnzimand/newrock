@@ -21,7 +21,6 @@
         'contact-us',
         'social-media',
         'keep-in-touch',
-        'newsletter',
         'map',
         'info',
       ]),

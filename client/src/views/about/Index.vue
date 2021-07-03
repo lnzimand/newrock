@@ -17,7 +17,6 @@
         'hero-alt',
         'about-our-product',
         'theme-features',
-        'newsletter',
         'map',
         'info',
       ]),
